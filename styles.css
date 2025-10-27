@@ -1,0 +1,81 @@
+:root {
+  --color-bg-dark: #1e1b1a;    /* deep near-black */
+  --color-bg-light: #f1e9dd;  /* aged paper / parchment */
+  --color-text-dark: #2f2b29; /* muted brown-black */
+  --color-text-light: #faf7f2;/* off-white highlight */
+  --color-accent-red: #7a3b3a;/* muted burgundy */
+  --color-accent-gold: #c9a36c;/* aged gold / marigold hint */
+  --color-accent-blue: #4a586c;/* dusty blue */
+  --color-accent-green: #6a7a64;/* muted sage green */
+}
+
+:root {
+  /* Headings – decorative funeral script */
+  --font-heading: "Great Vibes", "Parisienne", cursive;
+
+  /* Subheadings – gothic/blackletter option */
+  --font-subheading: "UnifrakturCook", "UnifrakturMaguntia", cursive;
+
+  /* Body text – legible old-style serif */
+  --font-body: "Cormorant Garamond", "Merriweather", serif;
+
+  /* Small caps / engraver style */
+  --font-smallcaps: "Cinzel", "EB Garamond", serif;
+}
+
+/* Example usage */
+h1, h2 {
+  font-family: var(--font-heading);
+  font-weight: 400;
+  text-align: center;
+}
+
+h3 {
+  font-family: var(--font-subheading);
+  font-size: 80px;
+  text-align: center;
+}
+
+h4 {
+  font-family: var(--font-subheading);
+  text-align: center;
+}
+
+body, p {
+  font-family: var(--font-body);
+  font-size: 2rem;
+  line-height: 1.6;
+}
+
+.smallcaps, li {
+  font-family: var(--font-smallcaps);
+  font-variant: small-caps;
+  letter-spacing: 0.05em;
+  text-align: left;
+}
+
+
+ul {
+list-style-type: none;
+padding: 0;
+margin: 0;
+}
+
+.card {
+    background-color: #f1e9dd;
+    border-radius: 30px;
+    box-shadow: 0 4px 80px rgba(0, 0, 0, 0.1);
+    padding: 5rem;
+    margin: 1rem auto;
+}
+
+img {
+  display: block;
+  margin: auto;
+  width: 40%;
+}
+
+iframe {
+  display: block;
+  margin: 0 auto;
+}
