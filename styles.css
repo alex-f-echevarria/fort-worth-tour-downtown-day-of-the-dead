@@ -194,7 +194,7 @@ li { line-height: 1.8; }
   position: absolute;
   inset: 0;
   width: 100%;
-  height: 100%;
+  height: 90%;
   object-fit: scale-down;
 }
 
